@@ -5,23 +5,22 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Item Card</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="C:/Users/mbrim/OneDrive/Documents/GitHub/ItemCard/css/main.css">
 	</head>
 	<body>
-		<header>
+		<header id='card'>
 			<h1>ItemCard</h1>
 		</header>
-		<section>
-			<section>
+		<section id='content'>
+			<section id='inputs'>
 				<h2>Item Description</h2>
 					<form>
 						<input type='text' placeholder='Describe your Item' id='item'>
 					</form>
-					<p></p>
 				<h2>Title</h2>
 					<form>
 						<input type='text' placeholder='Name of your Item' id='name'>
@@ -43,7 +42,7 @@
 					<input type="checkbox"><span>Requires Attunement?</span>
 				</form>
 			</section>
-			<section>
+			<section id='output'>
 				<h3>Title</h3>
 					<span id='Title'></span>
 				<h3>Type</h3>
