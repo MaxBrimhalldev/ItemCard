@@ -1,4 +1,4 @@
-document.querySelector('#button').addEventListener('click',copy)
+document.querySelector('button').addEventListener('click',copy)
 
 function copy(){
 	let item = document.querySelector('#item').value
@@ -14,17 +14,17 @@ function copy(){
 }
 
 // API Collection
-document.querySelector('button').addEventListener('click', getFetch)
+//document.querySelector('button').addEventListener('click',copy)
 
-function getFetch(){
-  const choice = document.querySelector('input').value
-  const url = `https://www.dnd5eapi.co/api/equipment/`
+//function getFetch(){
+//  const choice = document.querySelector('input').value
+//  const url = `https://www.dnd5eapi.co/api/equipment/`
 
-  fetch(url)
-      .then(res => res.json()) // parse response as JSON
-      .then(data => {
-        console.log(data)
+//  fetch(url)
+//      .then(res => res.json()) // parse response as JSON
+//      .then(data => {
+//        console.log(data)
       })
-      .catch(err => {
-          console.log(`error ${err}`)
-      });
+//      .catch(err => {
+//          console.log(`error ${err}`)
+//      });

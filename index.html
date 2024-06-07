@@ -9,20 +9,12 @@
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="C:/Users/Max Brimhall/Documents/GitHub/ItemCard/css/main.css">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 		<header id='card'>
 			<h1>ItemCard</h1>
 		</header>
-		<form>
-			<input type = 'radio' checked='true'> 
-			<p>Your own settings</p>
-		</form>
-		<form>
-			<input type = 'radio'>
-			<p>Preexisting DnD Items</p>
-		</form>
 		<section id='content'>
 			<section id='inputs'>
 				<h2>Title</h2>
@@ -51,18 +43,23 @@
 					<button id='button'>Submit</button>
 			</section>
 			<section id='output'>
-				<h3>Title</h3>
-					<span id='title'></span>
-				<h3>Type</h3>
-					<span id='type'></span>
-				<h3>Rarity</h3>
-					<span id='rarity'></span>
-				<h3>Value</h3>
-					<span id='value'></span>
-				<h3>Description</h3>
-					<span id='description'></span>
+				<section id='scroll-top'>
+					<h3 id='title'>Title</h3>
+				</section>
+				<section id='scroll-top-mid'>
+					<h3 id='type'>Type</h3>
+				</section>
+				<section id='scroll-mid'>
+					<h3 id='rarity'>Rarity</h3>
+				</section>
+				<section id='scroll-bottom-mid'>
+					<h3 id='value'>Value</h3>
+				</section>
+				<section id='scroll-bottom'>
+					<h3 id='description'>Description</h3>
+				</section>
 			</section>
 		</section>
-		<script type="text/javascript" src="C:/Users/Max Brimhall/Documents/GitHub/ItemCard/js/main.js"></script>
+		<script type="text/javascript" src="js\main.js"></script>
 	</body>
 </html>

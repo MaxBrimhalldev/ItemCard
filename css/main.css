@@ -3,25 +3,22 @@
 	display: flex;
 }
 #inputs, #output{
+	display: flex;
 	border: 2px solid black;
 	justify-content: center;
 	align-content: center;
 	flex-flow: column wrap;
-	width: 30%;
+	width: 20%;
 }
 #button{
 	width: 20%;
 }
-#output{
-	display: flex;
-	width: 40%;
-	justify-content: center;
+#scroll-top{
+	margin-bottom: 10%;
 }
-
-
 /*Style*/
 #output{
-	background-image: url("C:/Users/Max Brimhall/Documents/GitHub/ItemCard/Images/vintage.jpg");
+	background-image: url("Images/scroll.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
