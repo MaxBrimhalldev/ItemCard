@@ -1,5 +1,6 @@
 document.querySelector('button').addEventListener('click',copy)
 
+
 function copy(){
 	let item = document.querySelector('#item').value
 	let name = document.querySelector('#name').value

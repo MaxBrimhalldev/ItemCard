@@ -12,7 +12,10 @@
 #button{
 	width: 20%;
 }
-#scroll-top{
+#scroll-top-mid{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 /*Style*/
 #output{
